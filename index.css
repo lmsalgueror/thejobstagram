@@ -1,0 +1,273 @@
+    /*Colores y fuentes 
+font-family: 'Nunito', sans-serif;
+font-family: 'Lobster', cursive;
+*/
+    
+    html {
+        font-family: 'Nunito', sans-serif;
+    }
+    /*Layouts*/
+    
+    body {
+        background-color: black;
+    }
+    
+    .container {
+        padding: 10px;
+        width: 500px;
+        background-color: white;
+    }
+    
+    .main-layout {
+        height: 1600px;
+        border: 4px solid purple;
+        border-radius: 30px;
+        margin: 0 auto;
+    }
+    
+    .banner {
+        width: 250px;
+        height: 50px;
+        display: flex;
+        justify-content: left;
+        margin: 10px;
+        padding: 15px;
+        align-items: center;
+    }
+    
+    .banner-text {
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .restaurant-name-logo {
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 20px;
+        font-weight: bolder;
+    }
+    
+    .delivery-info {
+        margin: 10px auto;
+        width: 400px;
+        height: 80px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid #dfe5ec;
+        border-radius: 20px;
+    }
+    
+    .combos {
+        display: flex;
+        flex-direction: column;
+        margin: 0 20px;
+    }
+    
+    .combo-section {
+        width: 450px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .modal {
+        display: none;
+        position: fixed;
+        text-align: center;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        height: 800px;
+        width: 700px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 6px 2px #666;
+        background-color: white;
+        color: black;
+    }
+    
+    .modal-info {
+        display: flex;
+        width: 95%;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .combo-section:hover {
+        cursor: pointer;
+        border: solid 3px purple;
+        border-radius: 20px;
+    }
+    
+    .line {
+        border-top: 1px solid #dfe5ec;
+        height: 2px;
+        max-width: 650px;
+    }
+    
+    .radio-bev {
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .extra-cost-bev {
+        display: flex;
+        flex-direction: column;
+        line-height: 0.5rem;
+        align-items: flex-start;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    .right-side {
+        display: flex;
+        justify-content: right;
+        margin-top: 0;
+    }
+    
+    .bebidas {
+        margin-bottom: 0;
+    }
+    
+    .headerdiv {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+    
+    .bannerinfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 15px;
+        font-weight: bolder;
+    }
+    
+    .iconinfo {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .iconinfo i:hover {
+        color: purple;
+    }
+    /*Typo*/
+    
+    .jobstagram-font {
+        font-family: 'Lobster';
+        font-size: 2rem;
+        line-height: 0;
+    }
+    
+    .slogan {
+        font-family: 'Nunito', sans-serif;
+        font-weight: 500;
+        font-size: 0.8rem;
+    }
+    
+    .light-grey {
+        display: flex;
+        align-items: center;
+        font-weight: 300;
+        color: #868D97
+    }
+    
+    .light-grey i {
+        padding-left: 5px;
+        font-weight: 500;
+    }
+    
+    .delivery-info p {
+        line-height: 0;
+        text-align: center;
+    }
+    
+    .combo-section p {
+        color: #868D97
+    }
+    
+    .text-bolder {
+        font-weight: bolder;
+        color: black;
+    }
+    
+    .modal-title {
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    
+    .modal-text {
+        font-size: 0.8rem;
+    }
+    
+    .obligatory {
+        width: 100px;
+        color: black;
+        font-weight: 700;
+        font-size: 0.8rem;
+        border: 2px solid #dfe5ec;
+        border-radius: 8px;
+        text-align: center;
+    }
+    
+    .extra-cost-bev p {
+        color: #868D97
+    }
+    /*Images*/
+    
+    .logo-banner {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 60px;
+        height: 60px;
+    }
+    
+    .enterprise-banner {
+        margin: 5px;
+        padding: 20px;
+        width: 90%;
+        display: flex;
+    }
+    
+    .restaurant-logo {
+        width: 60px;
+        border-radius: 200px;
+        margin: 20px;
+    }
+    
+    .combo-section img {
+        width: 150px;
+        height: 150px;
+        border-radius: 30px;
+        border: 2px solid snow;
+    }
+    
+    .modal-img {
+        width: 380px;
+        height: 380px;
+        margin: 30px 10px 20px 10px;
+    }
+    /*Buttons*/
+    
+    .modal-close-btn {
+        border: #dfe5ec solid 2px;
+        border-radius: 100px;
+        background-color: white;
+    }
+    
+    .modal-close-btn:hover {
+        background-color: purple;
+        color: white;
+        border: solid 2px black;
+    }
