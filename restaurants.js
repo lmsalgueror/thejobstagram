@@ -3,6 +3,6 @@ export const restaurants = [{
     deliveryTime: 1,
     shipping: "VUI Designer",
     calification: 4.9,
-    imgbanner: "img/Drive-logo.png",
+    imgbanner: "img/googledrivepng.png",
     imglogo: "img/profilepic.png"
 }]
