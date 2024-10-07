@@ -12,18 +12,9 @@ export const menuData = [{
         price: 1,
         text: "",
         category: "combo",
-        img: "img/car1-1.png",
+        img: "img/car1todos.png",
         code: "mc-nuggets",
         post: "El diseño de interfaces de voz (VUI) está cambiando nuestra relación con la tecnología. Aquí tienes cinco beneficios que no puedes ignorar.  Accesibilidad Mejorada: Gracias a la VUI, las personas con discapacidades pueden interactuar con dispositivos de manera más inclusiva y sencilla. La voz es una herramienta poderosa para todos. ♿. Interacciones Naturales: Hablar es nuestra forma más intuitiva de comunicarnos. La VUI permite que la interacción con la tecnología se sienta como una conversación normal. 💬. Multitarea Eficiente: Imagina poder hacer varias cosas a la vez solo con tu voz. La VUI facilita tareas mientras mantienes las manos libres. ¡Adiós distracciones! 🚀. Respuesta Rápida: La tecnología de voz permite obtener respuestas al instante, ahorrando tiempo y aumentando nuestra productividad. ⏱️.  Experiencia Personalizada: Las interfaces de voz aprenden de ti, adaptándose a tus preferencias y brindando una experiencia única y a medida. 🌈  La voz está revolucionando nuestra manera de interactuar con el mundo digital. ¿Ya has probado alguna vez un asistente de voz? ¡Comparte tu experiencia! 🎤 #RevolucionDeLaVoz #VUIDesign #UXDesign #Tecnología #InteracciónNatural #Accesibilidad"
-    },
-    {
-        name: "🎟️✨ ¡Recibo de Beneficios! ✨🎟️ ",
-        price: 3,
-        text: "",
-        category: "combo",
-        img: "img/receipt.png",
-        code: "mc-nifica",
-        post: "Aquí tienes un resumen de lo que obtienes al incorporar el diseño de interfaces de voz (VUI) en tu vida diaria:  *Accesibilidad Mejorada: Tecnología para todos.♿*Interacciones Naturales: Conversaciones auténticas.💬*Multitarea Eficiente: Haz más con solo hablar.🚀*Respuesta Rápida: Respuestas al instante.⏱️*Experiencia Personalizada: Todo adaptado a ti.🌈¡La voz está revolucionando la forma en que nos conectamos!¿Listo para probar ? 🎤💡#RevolucionDeLaVoz# VUIDesign# UXDesign# Tecnología# InteracciónNatural# ReciboDeBeneficios>"
     },
     {
         name: "🔧 6 Habilidades y Herramientas Clave para un VUI Designer 🎤",
@@ -39,7 +30,7 @@ export const menuData = [{
         price: 5,
         text: "",
         category: "combo",
-        img: "img/car2-1.png",
+        img: "img/car2todos.png",
         code: "mc-bacon",
         post: "¡🎨 Diseñar una experiencia conversacional perfecta requiere las herramientas adecuadas! Si eres un VUI Designer, aquí tienes 6 esenciales para tu arsenal creativo: 🖥 **Balsamiq**: Simplifica el wireframing con esta herramienta de diseño que te ayuda a estructurar interfaces de manera ágil y visual. 🤖 **Botmock**: Prototipa conversaciones como un experto, creando flujos y simulaciones antes de lanzar tu asistente virtual. 🗣 **Dialogflow**: Desarrolla experiencias de conversación inteligentes, desde bots sencillos hasta asistentes avanzados, con la potencia de Google AI. 💻 **Microsoft Bot Framework**: Construye, conecta y administra bots en múltiples canales, todo con la robustez de Microsoft. 🔊 **Amazon Alexa**: Lleva tus diseños a otro nivel desarrollando habilidades para Alexa y sumérgete en el mundo de los asistentes de voz. 📋 **Miro**: Colabora y crea mapas de interacción visualmente en este lienzo digital que facilita el trabajo en equipo remoto. ¡Con estas herramientas, crear experiencias de voz nunca fue tan emocionante! 🚀🎤 #VUIDesign #VoiceDesign #UX #Productivity #VoiceUI #DesignTools #Bots #Alexa #Dialogflow #Miro"
     },
